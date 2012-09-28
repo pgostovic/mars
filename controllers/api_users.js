@@ -15,9 +15,9 @@ exports.init = function(app)
 	});
 
 	// User by id
-	app.get(new RegExp("/api/users/([^/]*)$"), function(req, res)
+	app.get("/api/users/:id", function(req, res)
 	{
-		var id = req.params[0];
+		var id = req.params["id"];
 		getUser(id, req, res, function(user)
 		{
 			if(user)
@@ -28,15 +28,16 @@ exports.init = function(app)
 	});
 
 	// Part of a user by id and js path
-	app.get(new RegExp("/api/users/([^/]*)/(.*)"), function(req, res)
+	app.get("/api/users/:id/:path", function(req, res)
 	{
-		var id = req.params[0];
+		var id = req.params.id;
+		var path = req.params.path;
 		getUser(id, req, res, function(user)
 		{
 			if(!user)
 				return res.send(404);
 
-			var val = phnq_core.jsPath(user, req.params[1]);
+			var val = phnq_core.jsPath(user, path);
 			if(val != undefined)
 				res.json(val);
 			else
@@ -45,15 +46,16 @@ exports.init = function(app)
 	});
 
 	// Set part of a user by id and js path
-	app.put(new RegExp("/api/users/([^/]*)/(.*)"), function(req, res)
+	app.put("/api/users/:id/:path", function(req, res)
 	{
-		var id = req.params[0];
+		var id = req.params.id;
+		var path = req.params.path;
 		getUser(id, req, res, function(user)
 		{
 			if(!user)
 				return res.send(404);
 
-			var val = phnq_core.jsPath(user, req.params[1], req.body);
+			var val = phnq_core.jsPath(user, path, req.body);
 			if(val != undefined)
 			{
 				user.save(function(err)

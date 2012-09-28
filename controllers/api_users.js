@@ -72,6 +72,15 @@ exports.init = function(app)
 	});
 };
 
+/*
+*	This function retrieves a user by id and passes user as the first
+*	argument to the supplied callback fn.  If the specified id is the
+*	"current user alias", by default configured as "me", then the request
+*	cookied "id" is used as the id.  In this case, if there is no id
+*	cookie or there is no user in the db that matches the id cookie, then
+*	a new anonymous user is created and the newly created user's id is
+*	added to a response cookie.
+*/
 var getUser = function(id, req, res, fn)
 {
 	var isMe = (id == config.currenUserAlias);
@@ -98,7 +107,7 @@ var getUser = function(id, req, res, fn)
 			if(err)
 				return fn(null);
 
-			res.cookie("id", user.id, { maxAge: 3600000 });
+			res.cookie("id", user.id, { maxAge: config.anonUserIdCookieAge });
 			fn(user);
 		});
 	}

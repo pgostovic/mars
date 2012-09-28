@@ -1,6 +1,7 @@
 module.exports =
 {
 	currenUserAlias: "me",
+	anonUserIdCookieAge: 3600000, // ms
 
 	dev:
 	{

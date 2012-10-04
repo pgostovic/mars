@@ -1,12 +1,22 @@
+depend("mars.style");
 depend("mars.api");
+depend("phnq.hashroutes");
 
 var widget =
 {
 	ready: function($$)
 	{
-		mars.api.getCurrentUser(function(user)
+		phnq.hashroutes.set(
 		{
-			log.debug("The current user is: ", user);
+			"default": function(path)
+			{
+				log.debug("DEFAULT: ", path);
+			},
+
+			"/track/(.*)": function(trackId)
+			{
+				log.debug("track: ", trackId);
+			}
 		});
 	}
 };

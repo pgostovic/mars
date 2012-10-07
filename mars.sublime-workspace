@@ -1,0 +1,556 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"String",
+				"StringBuilder"
+			],
+			[
+				"unlink",
+				"fs.unlinkSync(path);"
+			],
+			[
+				"phnq_",
+				"phnq_core"
+			],
+			[
+				"deepEq",
+				"assert.deepEqual(actual, expected, message);"
+			],
+			[
+				"name",
+				"namespace  (variable)"
+			],
+			[
+				"back",
+				"background	background-image: url"
+			],
+			[
+				"backg",
+				"background	background-image: none"
+			],
+			[
+				"backgr",
+				"background	background-color: hex"
+			],
+			[
+				"u",
+				"u"
+			],
+			[
+				"lam",
+				"lambda"
+			],
+			[
+				"adm",
+				"admin_user"
+			],
+			[
+				"current",
+				"current_token"
+			],
+			[
+				"tag",
+				"tagLibs"
+			],
+			[
+				"dep",
+				"depTypes"
+			],
+			[
+				"comp",
+				"compileDoc"
+			],
+			[
+				"fn",
+				"fn"
+			],
+			[
+				"obj",
+				"objCode"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"eval",
+				"evalTag"
+			],
+			[
+				"params",
+				"paramsStack"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"pro",
+				"prototype"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 247.0,
+		"selected_items":
+		[
+			[
+				"js",
+				"Set Syntax: JSON"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"git",
+				"Git: Diff Tool"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Get Elements"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/pg/Desktop/Test.java",
+		"/etc/hosts",
+		"/Users/pg/Desktop/node/node_modules/phnq_widgets/widgets/phnq.net/net.js",
+		"/Users/pg/Desktop/node/apps/mars/app.js",
+		"/Users/pg/Desktop/node/apps/mars/widgets/mars.main/main.html",
+		"/Users/pg/Desktop/node/node_modules/phnq_widgets/server/widget_manager.js",
+		"/Users/pg/Desktop/node/apps/mars/controllers/main.js",
+		"/Users/pg/Desktop/node/apps/mars/model/User.js",
+		"/Users/pg/Desktop/node/node_modules/phnq_log/phnq_log.js",
+		"/Users/pg/Desktop/node/apps/mars/controllers/api_users.js",
+		"/Users/pg/Desktop/node/node_modules/phnq_core/phnq_core.js",
+		"/Users/pg/Desktop/node/node_modules/phnq_core/test/phnq_core_test.js",
+		"/Users/pg/Desktop/node/apps/mars/test/api_users_test.js",
+		"/Users/pg/Desktop/node/apps/mars/config.js",
+		"/Users/pg/Desktop/node/apps/ma/widgets/ma.api/api.js",
+		"/Users/pg/Desktop/node/node_modules/zombie/node_modules/ws/node_modules/commander/lib/commander.js",
+		"/Users/pg/Desktop/node/apps/mars/db.js",
+		"/Users/pg/Desktop/node/apps/mars/controllers/api_controller.js",
+		"/Users/pg/Desktop/node/apps/mars/test/api_controller_test.js",
+		"/Users/pg/Desktop/node/node_modules/phnq_widgets/server/phnq_widgets.js",
+		"/Users/pg/Desktop/node/apps/mars/config_dev.js",
+		"/Users/pg/Desktop/node/apps/mars/config_prod.js",
+		"/Users/pg/Desktop/node/node_modules/phnq_strava/phnq_strava.js",
+		"/Users/pg/Desktop/node/apps/cloudj/app.js",
+		"/Users/pg/Desktop/node/node_modules/phnq_core/phnq_core_test.js",
+		"/Users/pg/Desktop/node/node_modules/phnq_widgets/phnq_widgets.js",
+		"/Users/pg/Desktop/node/node_modules/phnq_widgets/server/widget.js",
+		"/Users/pg/Desktop/node/apps/cmms/widgets/cmms.main/main.html.ejs",
+		"/Users/pg/Desktop/node/node_modules/phnq_widgets/server/config.js",
+		"/Users/pg/Desktop/node/node_modules/phnq_widgets/client/context.js",
+		"/Users/pg/Desktop/node/node_modules/phnq_widgets/server/context.js",
+		"/Users/pg/Desktop/node/apps/mars/routes.js",
+		"/Users/pg/Desktop/node/apps/ma/routes.js",
+		"/Users/pg/Desktop/node/node_modules/phnq_core/package.json",
+		"/Users/pg/Desktop/node/apps/cmms/test.js",
+		"/Users/pg/Desktop/node/apps/cmms/app.js",
+		"/Users/pg/Desktop/node/node_modules/phnq_core/test/test.js",
+		"/Users/pg/Desktop/node/apps/mars/controllers/routes.js",
+		"/Users/pg/Desktop/node/node_modules/zombie/lib/zombie/forms.js",
+		"/etc/my.cnf",
+		"/Users/pg/Desktop/node/node_modules/phnq_core/output.md",
+		"/Users/pg/Desktop/node/apps/cmms/widgets/cmms.nav/nav.html.ejs",
+		"/Users/pg/Desktop/node/node_modules/phnq_widgets/context.js",
+		"/Users/pg/Desktop/node/node_modules/phnq_widgets/package.json",
+		"/Users/pg/Desktop/node/node_modules/phnq_widgets/client/widgets.js",
+		"/Users/pg/Desktop/node/apps/cmms/widgets/cmms.content/content.css",
+		"/Users/pg/Desktop/node/apps/cmms/widgets/cmms.content/content.html.ejs",
+		"/Users/pg/Desktop/node/apps/cmms/widgets/cmms.nav/nav.css",
+		"/Users/pg/Desktop/node/node_modules/phnq_widgets/widgets/phnq.accordion/accordion.css",
+		"/Users/pg/Desktop/node/node_modules/phnq_widgets/widgets/phnq.accordion/accordion.js",
+		"/Users/pg/Desktop/node/apps/cmms/widgets/cmms.main/main.css",
+		"/Users/pg/Desktop/node/apps/cmms/widgets/cmms.main/main.js",
+		"/Users/pg/Desktop/node/apps/cmms/widgets/cmms.api.testdata/testdata.js",
+		"/Users/pg/Desktop/node/apps/cmms/widgets/cmms.api/api.js",
+		"/Users/pg/Desktop/node/apps/cmms/widgets/cmms.nav/nav.js",
+		"/Users/pg/Desktop/node/apps/cmms/widgets/cmms.testdata/testdata.js",
+		"/Users/pg/Desktop/node/node_modules/phnq_widgets/client/jquery-1.7.2.min.js",
+		"/Users/pg/Desktop/node/apps/prologue/widgets/prlg.main/main.js",
+		"/Users/pg/Desktop/Test.j",
+		"/Users/pg/dev/ma-develop/MaWebSite/src_generated/com/ma/website/db/dto/SystemSettingBase.java",
+		"/etc/host",
+		"/Users/pg/Desktop/node/apps/ma/widgets/ma.test/test.css",
+		"/Users/pg/Desktop/node/apps/cloudj/widgets/cloudj.main/main.html.ejs",
+		"/Users/pg/dev/tomcat/apache-tomcat-7.0.27/conf/Catalina/localhost/ROOT.xml",
+		"/Users/pg/dev/ma-root/cmms-application/src/main/webapp/ember/templates/_shared/summary-fields/maintenancetype.handlebars",
+		"/Users/pg/dev/ma-root/cmms-application/src/main/webapp/ember/templates/_shared/summary-fields/project.handlebars",
+		"/Users/pg/dev/ma-root/cmms-application/src/main/webapp/ember/templates/_shared/tab-meter-readings/item.handlebars",
+		"/Users/pg/dev/ma-root/cmms-application/src/main/webapp/ember/templates/_shared/tab-task-list/item.handlebars",
+		"/Users/pg/dev/ma-root/cmms-application/src/main/webapp/ember/templates/workorder/complete-workorder.handlebars",
+		"/Users/pg/dev/ma-root/cmms-application/src/main/webapp/ember/templates/workorderList/list.handlebars",
+		"/Users/pg/dev/ma-root/cmms-application/src/main/webapp/ember/templates/_shared/dialog-select-part/dialog.handlebars",
+		"/Users/pg/dev/ma-root/cmms-application/src/main/webapp/ember/templates/_shared/summary-user-list/users.handlebars",
+		"/Users/pg/dev/ma-root/cmms-application/target/cmms/ember/templates/workorder/summary.handlebars",
+		"/Users/pg/dev/ma-root/cmms-application/src/main/webapp/public/javascript/vendor/ember-0.9.8.1.js",
+		"/Users/pg/dev/ma-root/cmms-application/src/main/webapp/public/javascript/wo.html",
+		"/Users/pg/dev/ma-root/cmms-application/src/main/webapp/ember/templates/workorder/summary.handlebars",
+		"/Users/pg/dev/ma-root/util-webapp/src/main/resources/ember-0.9.8.1.js",
+		"/Users/pg/dev/ma-root/cmms-business/.classpath",
+		"/Users/pg/dev/ma-root/.gitignore",
+		"/Users/pg/dev/ma-root/util-webapp/pom.xml",
+		"/Users/pg/dev/ma-root/pom.xml",
+		"/Users/pg/Desktop/node/apps/prologue/widgets/prlg.api/api.html.ejs",
+		"/Users/pg/Desktop/node/apps/prologue/widgets/prlg.main/_main.js",
+		"/Users/pg/dev/mvn-migration/ma-root/ext/pom.xml",
+		"/Users/pg/Desktop/node/apps/test/widgets/test.main/i18n/fr/string.json",
+		"/Users/pg/Desktop/node/apps/test/widgets/test.main/mail.html.ejs",
+		"/Users/pg/Desktop/node/apps/test/widgets/test.main/main.css",
+		"/Users/pg/dev/ma-crm/station/app/assets/javascripts/app/templates/hours/index.handlebars",
+		"/Users/pg/dev/ma-crm/station/app/assets/javascripts/app/templates/quotes/show.handlebars",
+		"/Users/pg/dev/ma-crm/station/app/assets/javascripts/app/views/hours/index.js",
+		"/Users/pg/dev/ma-crm/station/app/assets/javascripts/app/views/quotes/show.js",
+		"/Users/pg/dev/ma-crm/station/app/helpers/hours_helper.rb",
+		"/Users/pg/dev/ma-crm/station/app/models/account.rb",
+		"/Users/pg/dev/ma-crm/station/app/controllers/application_controller.rb",
+		"/Users/pg/dev/ma-crm/station/app/views/hours/index.html.erb",
+		"/Users/pg/dev/ma-crm/station/app/models/ma_web/business.rb",
+		"/Users/pg/dev/ma-crm/station/app/models/used_time.rb",
+		"/Users/pg/dev/ma-crm/station/app/models/purchased_time.rb",
+		"/Users/pg/dev/ma-crm/station/app/models/quark/order.rb",
+		"/Users/pg/dev/ma-crm/station/spec/factories/ma_web/business.rb",
+		"/Users/pg/dev/ma-crm/station/spec/factories/ma_web/user.rb",
+		"/Users/pg/dev/ma-crm/station/spec/models/ma_web/business.rb",
+		"/Users/pg/dev/ma-crm/station/spec/models/ma_web/user.rb",
+		"/Users/pg/dev/ma-crm/station/app/models/cmms_instance.rb",
+		"/Users/pg/dev/ma-crm/station/spec/models/cmms_instance_spec.rb",
+		"/Users/pg/dev/ma-crm/station/spec/models/contact_spec.rb",
+		"/Users/pg/dev/ma-crm/station/app/views/orders/index.html.erb",
+		"/Users/pg/dev/ma-crm/station/spec/controllers/orders_controller_spec.rb",
+		"/Users/pg/dev/ma-crm/station/app/controllers/orders_controller.rb",
+		"/Users/pg/dev/ma-crm/station/app/controllers/quotes_controller.rb",
+		"/Users/pg/dev/ma-crm/station/app/views/organizations/_account_summary.html.erb",
+		"/Users/pg/dev/ma-crm/station/app/models/ma_web/user.rb",
+		"/Users/pg/dev/ma-crm/station/app/controllers/organizations_controller.rb",
+		"/Users/pg/dev/ma-crm/station/app/models/cmms_user.rb",
+		"/Users/pg/dev/ma-crm/station/app/models/organization.rb",
+		"/Users/pg/dev/ma-crm/station/config/initializers/active_resource_to_json_fix.rb",
+		"/Users/pg/dev/ma-crm/station/app/models/ability.rb",
+		"/Users/pg/dev/ma-crm/station/app/models/odo/cmms_user.rb",
+		"/Users/pg/dev/ma-crm/odo/spec/sample_spec.rb",
+		"/Users/pg/dev/ma-crm/odo/spec/controllers/users_controller_spec.rb",
+		"/Users/pg/dev/ma-crm/odo/app/controllers/users_controller.rb",
+		"/Users/pg/dev/ma-crm/odo/app/models/account.rb",
+		"/Users/pg/dev/ma-crm/odo/spec/spec_helper.rb",
+		"/Users/pg/dev/ma-crm/odo/spec/controllers/accounts_controller_spec.rb",
+		"/Users/pg/dev/ma-crm/odo/app/controllers/accounts_controller.rb",
+		"/Users/pg/dev/ma-crm/odo/app/controllers/oauth_controller.rb",
+		"/Users/pg/dev/ma-crm/odo/app/models/oauth2_verifier.rb",
+		"/Users/pg/dev/ma-crm/odo/app/models/oauth2_token.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"if can",
+			"can",
+			"fs.existsSync",
+			"agg",
+			"path.exists",
+			"process.arg",
+			"app.post",
+			"process.argv[1]",
+			"new WidgetMan",
+			"process.argv[1]",
+			"process.argv",
+			"__",
+			"display",
+			"wph",
+			"isLazy",
+			"lazy",
+			".watch",
+			"shell.html.ejs",
+			"script.js.ejs",
+			"req",
+			"getQueryParams",
+			"i18n:",
+			"getParentLocale",
+			"query",
+			"widget",
+			"query",
+			"nextId",
+			"require",
+			"renderWidget",
+			"i18n",
+			"context",
+			"msgText2",
+			"msgText1",
+			"getStrSmtpUsername",
+			"MyAuthenticator",
+			"MimeMessage",
+			"jaxax.mail",
+			"data-p",
+			"Bruynswick ",
+			".commit",
+			"commit",
+			"lucene",
+			"solr",
+			"ma-root",
+			"main(String[]",
+			"/Users/",
+			"<T>",
+			"console.log",
+			"{{view",
+			"didInsertElement",
+			"{{view Wgts.Mul",
+			"{{view Wgts.Select",
+			"{{view Wgts",
+			"{{view",
+			"<script type=\"text/html\"",
+			"precomp",
+			".compile",
+			"Ember.Handlebars.compile",
+			"handlebars",
+			"Handlebars.Parser",
+			"Handlebars.parse",
+			"precompile",
+			"debugger",
+			"identifier",
+			"window",
+			"volatile",
+			"precompile",
+			"helpers",
+			"aspect",
+			"RandomUtils",
+			"ThreadLocal",
+			"DTO",
+			"import com.act",
+			"FormModel",
+			"delayLifecycleMethods",
+			"DAYS_TO_PAY",
+			"userportal",
+			"phnq_util",
+			"form_tag",
+			"hours",
+			"add_line_item",
+			"Add Line Item",
+			"Can't verify CSRF token authenticity",
+			"authenticate_user!",
+			".is_a",
+			"hour",
+			"@order_id",
+			"order_id",
+			"find",
+			"post",
+			"dupe",
+			"Lead.new",
+			"Account.new",
+			"persisted",
+			"embeds_many",
+			".each",
+			"callback_url",
+			"oauth_tokens",
+			"users",
+			"client_applications",
+			"OAUTH_10_SUPPORT",
+			"1.0",
+			"be_oob",
+			"oauth_tokens",
+			"Factory.create(:user)",
+			"user",
+			"users",
+			"client_applications",
+			"current_user=",
+			"config.after",
+			"User.where",
+			"Password can't be blank",
+			"passw",
+			"ControllerMacros",
+			"invalidate!",
+			"invalidated_at",
+			"expires_at",
+			"find_by_oauth_uid",
+			"user_signed_in?",
+			"def current_user",
+			"def current_token",
+			"Bearer",
+			"logged_in?",
+			"oauth_uid",
+			"expires",
+			"access_token:",
+			"error_messages_for",
+			"invalid_oauth_response"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"phnq_log",
+			"phnq_tmplt",
+			"phnq_util"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"app/controllers/orders_controller.rb"
+			],
+			[
+				"order",
+				"app/models/order.rb"
+			],
+			[
+				"hoursindex",
+				"app/views/hours/index.html.erb"
+			],
+			[
+				"ordersc",
+				"app/controllers/orders_controller.rb"
+			],
+			[
+				"orderscon",
+				"spec/controllers/orders_controller_spec.rb"
+			],
+			[
+				"ordersinde",
+				"app/views/orders/index.html.erb"
+			],
+			[
+				"account_su",
+				"app/views/organizations/_account_summary.html.erb"
+			],
+			[
+				"she",
+				"node_modules/phnqlets/server/xhtml/shell.xhtml"
+			],
+			[
+				"run",
+				"node_modules/phnqlets/shared/js/runtime.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 299.0,
+	"status_bar_visible": true
+}

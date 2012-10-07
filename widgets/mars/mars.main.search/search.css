@@ -1,0 +1,11 @@
+.__CLASS__ .searchResult
+{
+	margin: 10px;
+	width: 126px;
+}
+
+.__CLASS__ .searchResult > img
+{
+	width: 126px;
+	height: 126px;
+}

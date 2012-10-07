@@ -2,4 +2,9 @@
 	<header>
 		<span class="logo">M<span>a</span>RS</span>
 	</header>
+
+	<%= widget("phnq.deck", {keys:["search", "playlist"]}, function(){ %>
+		<%= widget("mars.main.search") %>
+		<%= widget("mars.main.playlist") %>
+	<% }); %>
 </body>

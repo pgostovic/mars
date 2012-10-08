@@ -13,7 +13,15 @@ exports.init = function(app)
 
 		lastfm.trackSearch(query, function(result)
 		{
-			res.json(result.results.trackmatches.track);
+			try
+			{
+				res.json(result.results.trackmatches.track);
+			}
+			catch(ex)
+			{
+				log.error("Error getting tracks for \""+query+"\"", ex), result;
+				res.json([]);
+			}
 		});
 	});
 };

@@ -1,11 +1,45 @@
-.__CLASS__ .searchResult
+.__CLASS__
 {
-	margin: 10px;
-	width: 126px;
+	text-align: center;
 }
 
-.__CLASS__ .searchResult > img
+.__CLASS__ > input
 {
-	width: 126px;
-	height: 126px;
+	width: 400px;
+	font-size: 1.5em;
+	color: #666;
+}
+
+.__CLASS__ .searchResult td
+{
+	vertical-align: middle;
+}
+
+.__CLASS__ .searchResult .trackImg
+{
+	width: 64px;
+	height: 64px;
+}
+
+.autocompleteResult
+{
+	height: 70px;
+}
+
+.autocompleteResult > img
+{
+	float: left;
+	margin: 3px 10px 3px 0;
+	width: 64px;
+	height: 64px;
+}
+
+.autocompleteResult > h1
+{
+	font-size: 1em;
+}
+
+.autocompleteResult > h2
+{
+	font-size: 0.8em;
 }

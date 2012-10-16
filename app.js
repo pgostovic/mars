@@ -38,7 +38,15 @@ app.configure('production', function()
 	phnq_core.extend(config, config.prod);
 });
 
-mongoose.connect("mongodb://"+config.dbHost+"/"+config.dbName);
+var connStr = "mongodb://"+config.dbHost+"/"+config.dbName;
+try
+{
+	mongoose.connect(connStr);
+}
+catch(ex)
+{
+	log.error("Error connecting to "+connStr, ex);
+}
 
 app.listen(8888, function()
 {

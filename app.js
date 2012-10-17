@@ -1,5 +1,4 @@
 // Dependencies
-var _ = require("underscore");
 var express = require('express');
 var phnq_widgets = require("phnq_widgets");
 var phnq_log = require("phnq_log");
@@ -8,12 +7,14 @@ var _path = require("path");
 var fs = require("fs");
 var config = require('./config');
 var log = phnq_log.create(__filename);
-var app = module.exports = express.createServer(phnq_widgets.widgetRenderer());
 var mongoose = require("mongoose");
+
+var app = express();
 
 // Configuration
 app.configure(function()
 {
+	app.use(phnq_widgets.widgetRenderer());
 	app.use(express.bodyParser());
 	app.use(express.cookieParser());
 });
@@ -48,10 +49,9 @@ catch(ex)
 	log.error("Error connecting to "+connStr, ex);
 }
 
-app.listen(8888, function()
-{
-	log.info("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
-});
-
-// Widgets
 phnq_widgets.start({express: app, appRoot:__dirname});
+
+app.listen(config.port, function()
+{
+	log.info("Express server listening on port %d in %s mode", config.port, app.settings.env);
+});

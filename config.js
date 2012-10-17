@@ -6,12 +6,14 @@ module.exports =
 
 	dev:
 	{
+		port: 8888,
 		dbName: "mars_dev",
 		dbHost: "localhost"
 	},
 
 	test:
 	{
+		port: 8888,
 		dbName: "mars_test",
 		dbHost: "localhost"
 	},
